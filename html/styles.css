@@ -5,18 +5,18 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 14% !important;
-    animation: pulseAnimation 1s ease-in-out infinite; /* Animation applied */
+    animation: pulseAnimation 1s ease-in-out infinite; 
 }
 
 @keyframes pulseAnimation {
     0% {
-        transform: translate(-50%, -50%) scale(1); /* Initial state */
+        transform: translate(-50%, -50%) scale(1); 
     }
     50% {
-        transform: translate(-50%, -50%) scale(1.2); /* Mid state - scale up */
+        transform: translate(-50%, -50%) scale(1.2); 
     }
     100% {
-        transform: translate(-50%, -50%) scale(1); /* Final state */
+        transform: translate(-50%, -50%) scale(1); 
     }
 }
 
@@ -167,7 +167,6 @@ span.q-btn__content.text-center.col.items-center.q-anchor--skip.justify-center.c
 
 
 .advanced-ui-card {
-    /* Add the following styles */
     margin: 0 auto;
     max-width: 80%;
     width: 100%;
@@ -205,24 +204,24 @@ span.q-btn__content.text-center.col.items-center.q-anchor--skip.justify-center.c
   }
 
 .advanced-ui-card:hover {
-    transform: translateY(-3px); /* Add hover effect */
+    transform: translateY(-3px); 
 }
 
 .advanced-ui-title {
-    font-size: 1.8rem; /* Smaller font size */
+    font-size: 1.8rem; 
     font-weight: bold;
-    color: #fff; /* White text */
-    margin-bottom: 1rem; /* Margin */
+    color: #fff; 
+    margin-bottom: 1rem; 
 }
 
 .advanced-ui-description {
-    font-size: 1rem; /* Smaller font size */
-    color: #fff; /* White text */
+    font-size: 1rem; 
+    color: #fff; 
     line-height: 1.5;
 }
 
 
 .advanced-ui-btn:hover {
-    background-color: #ff0000; /* Darker red on hover */
-    transform: scale(1.05); /* Add hover effect */
+    background-color: #ff0000; 
+    transform: scale(1.05); 
 }
